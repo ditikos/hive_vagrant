@@ -1,6 +1,6 @@
 # ./servers.yml
 ---
-- hosts: group-a
+- hosts: moonbase_alpha
   become: false
   tasks:
     - command: 'echo {{ greeting }}'
